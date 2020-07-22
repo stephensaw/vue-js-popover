@@ -5,8 +5,7 @@
     :width="width"
     :event="event"
     @show="value = $event.value"
-  >
-    {{ value }}
+  >{{ value }}
   </popover>
 </template>
 <script>

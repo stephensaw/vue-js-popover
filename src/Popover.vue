@@ -7,8 +7,7 @@
       :data-popover="this.name"
       @click.stop
       ref="dropdown"
-    >
-      <slot />
+    ><slot />
     </div>
   </transition>
 </template>
